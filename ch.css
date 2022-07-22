@@ -1,0 +1,46 @@
+* {
+    color: darkgreen;
+    background-color: lightgreen;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.col-3 {
+    height: 500px;
+    width: 300px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.center {
+    text-align: center;
+}
+
+.colortext {
+    color: black;
+    background-color: chartreuse;
+}
+
+p {
+    padding-top: 0px;
+    font-size: 6px;
+}
+
+.pic {
+    src: "https://cdn.countryflags.com/thumbs/uzbekistan/flag-800.png";
+    width: 40px;
+    height: 30px;
+}
+
+
+
